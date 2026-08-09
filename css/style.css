@@ -484,6 +484,8 @@ nav a:hover{
 
     filter:drop-shadow(0 0 30px rgba(139,92,246,.35));
 
+    border-radius: 18px;
+
 }
 
 .hero-glow{
