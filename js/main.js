@@ -1,1 +1,0 @@
-console.log("Samedi & Mercredi ID Shop");
