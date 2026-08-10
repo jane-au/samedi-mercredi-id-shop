@@ -398,22 +398,7 @@
 
         </div>
 
-        <div class="visitor-counter">
-          👁️ ผู้เข้าชมแล้ว <span id="visitor-count">กำลังโหลด...</span> ครั้ง
-        </div>
-
     </footer>
-
-    <script>
-    fetch('https://samedi-mercredi.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
-      .then(response => response.json())
-      .then(data => {
-         document.getElementById('visitor-count').textContent = data.count;
-      })
-      .catch(() => {
-         document.getElementById('visitor-count').textContent = '-';
-      });
-    </script>
 
     </body>
 
