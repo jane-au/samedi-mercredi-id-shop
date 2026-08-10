@@ -1403,3 +1403,21 @@ flex-wrap:wrap;
     font-family: Arial, sans-serif;
     font-weight: 800;
 }
+
+.visitor-counter {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 16px;
+    background: rgba(15, 10, 30, 0.9);
+    border: 1px solid rgba(150, 80, 255, 0.5);
+    border-radius: 12px;
+    color: #fff;
+    font-size: 14px;
+    z-index: 9999;
+}
+
+.visitor-counter span {
+    color: #a970ff;
+    font-weight: 700;
+}
